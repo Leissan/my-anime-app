@@ -1,0 +1,47 @@
+
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(236, 189, 33)
+  ;
+  color: #333;
+  font-family: Sans-serif;
+  line-height: 18px;
+
+}
+
+
+h1 {
+    font-size: 36px;
+    font-family: 'Gabriela';
+    color: #444;
+}
+
+
+h3 {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+
+a {
+  color: rgb(243, 12, 174);
+  text-decoration: none;
+}
+
+.branding {
+    clear: both;
+}
+
+footer.branding {
+    border-top: 2x solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
