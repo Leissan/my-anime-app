@@ -20,4 +20,11 @@ window.addEventListener('DOMContentLoaded', ()=> {
     getAnimes()
 })
 
-
+function getAnimes() {
+    fetch ('https://api.jikan.moe/v3/search/anime?q=naruto')
+    .then (res => res.json)
+    .then (data => {
+        animes=data
+        console.log(data)
+    })
+}
