@@ -13,3 +13,11 @@ add event listener to all anime button which loads all anime
 
 
 */
+//declare a global variable so i dont have to fetch it every time
+let anime
+
+window.addEventListener('DOMContentLoaded', ()=> {
+    getAnimes()
+})
+
+
