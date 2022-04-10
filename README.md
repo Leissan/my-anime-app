@@ -9,7 +9,8 @@ Allows the user to:
 -click the like button on a specific anime which then creates a pop-up that says "I want to watch this later!" (dissapears after 3 seconds)
 -click on the "all animes" button to take the user back to the list of animes
 
-
 Instructions:
 You will be using the free open API; no API key or authentication is required for the endpoints we will be using.
 
+URL of the repo:
+https://github.com/Leissan/my-anime-app
