@@ -48,8 +48,11 @@ function loadAnimes() {
 }
 
 function getEachInfo() {
-    console.log(event.target.id)
-    console.log(animes)
+    const ul = document.getElementById('anime-list')
+    const info = document.getElementById('anime-info')
+    ul.innerHTML=''
     const anime = animes.find( an => an.mal_id===parseInt(event.target.id))
-    console.log(anime)
+    info.innerHTML=`
+    `
+    
 }
