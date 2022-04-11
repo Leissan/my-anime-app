@@ -24,7 +24,7 @@ function getAnimes() {
     fetch ('https://api.jikan.moe/v3/search/anime?q=naruto')
     .then (res => res.json())
     .then (data => {
-        animes = data
+        animes = data.results
         console.log(data.results)
         loadAnimes()
     })
@@ -33,7 +33,7 @@ function getAnimes() {
 function loadAnimes() {
 
     const ul = document.getElementById('anime-list')
-    animes.results.forEach(anime => {
+    animes.forEach(anime => {
         const li = document.createElement('li')
         ul.appendChild(li)
         const a = document.createElement('a')
@@ -49,4 +49,7 @@ function loadAnimes() {
 
 function getEachInfo() {
     console.log(event.target.id)
+    console.log(animes)
+    const anime = animes.find( an => an.mal_id===parseInt(event.target.id))
+    console.log(anime)
 }
