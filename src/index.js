@@ -42,5 +42,11 @@ function loadAnimes() {
         a.href = '#'
         li.appendChild(a)
 
+
     })
+    ul.addEventListener('click', getEachInfo)
+}
+
+function getEachInfo() {
+    console.log('ive been clicked!')
 }
