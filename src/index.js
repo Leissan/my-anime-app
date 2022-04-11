@@ -48,5 +48,5 @@ function loadAnimes() {
 }
 
 function getEachInfo() {
-    console.log('ive been clicked!')
+    console.log(event.target.id)
 }
