@@ -53,6 +53,17 @@ function getEachInfo() {
     ul.innerHTML=''
     const anime = animes.find( an => an.mal_id===parseInt(event.target.id))
     info.innerHTML=`
+    <h1>${anime.title}</h1>
+    <img src=${anime.image_url} alt="i heart anime" >
+    <h3>More Info Here:</h3>
+    <a>${anime.url}</a>
+    <h3>Score:</h3>
+    <p>${anime.score}</p>
+    <h3>Number of Episodes:</h3>
+    <p>${anime.episodes}</p>
+    <h3>Storyline:</h3>
+    <p>${anime.synopsis}</p>
     `
     
 }
+
