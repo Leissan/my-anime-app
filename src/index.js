@@ -18,6 +18,7 @@ let anime
 
 window.addEventListener('DOMContentLoaded', ()=> {
     getAnimes()
+    document.getElementById('animes').addEventListener('click', getAnimes)
 })
 
 function getAnimes() {
@@ -56,11 +57,13 @@ function getEachInfo() {
     <h1>${anime.title}</h1>
     <img src=${anime.image_url} alt="i heart anime" >
     <div></div>
-    <a href = ${anime.url} >Take me to the link:</a>
+    <a href = ${anime.url} >Full information here:</a>
     <h3>Score:</h3>
     <p>${anime.score}</p>
     <h3>Number of Episodes:</h3>
     <p>${anime.episodes}</p>
+    <h3>Rated:</h3>
+    <p>${anime.rated}</p>
     <h3>Storyline:</h3>
     <p>${anime.synopsis}</p>
     `
