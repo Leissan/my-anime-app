@@ -55,8 +55,8 @@ function getEachInfo() {
     info.innerHTML=`
     <h1>${anime.title}</h1>
     <img src=${anime.image_url} alt="i heart anime" >
-    <h3>More Info Here:</h3>
-    <a>${anime.url}</a>
+    <div></div>
+    <a href = ${anime.url} >Take me to the link:</a>
     <h3>Score:</h3>
     <p>${anime.score}</p>
     <h3>Number of Episodes:</h3>

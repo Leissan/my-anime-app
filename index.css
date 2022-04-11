@@ -30,9 +30,21 @@ h3 {
 
 
 a {
-  color: rgb(245, 12, 174);
+  color: rgb(12, 8, 241);
   text-decoration: none;
+
 }
+
+li {
+    margin-top: 10px
+}
+
+
+
+  a:hover {
+    border-bottom: 1px solid;
+    background: #f3e304;
+  }
 
 .branding {
     clear: both;
