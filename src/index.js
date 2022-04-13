@@ -81,6 +81,6 @@ function displayMessage () {
     modalMessage.style.fontSize = "large"
     setTimeout(()=> {
         modal.classList.add('hidden')
-        modalParagraph.innerText=""
+        modalMessage.innerText=""
        }, 3000)
 }
