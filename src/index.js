@@ -72,7 +72,9 @@ function getEachInfo() {
     button.addEventListener('click', displayMessage)
 }
 
-function displayMessage {
+function displayMessage () {
     let modal =document.getElementById('modal')
-    let modalText=document.getElementById('modal-message')
+    let modalMessage=document.getElementById('modal-message')
+    modal.classList.remove('hidden')
+    modalMessage.innerText = "Let's put this on my to-watch list!"
 }
