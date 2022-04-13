@@ -58,14 +58,15 @@ function getEachInfo() {
     <img src=${anime.image_url} alt="i heart anime" >
     <div></div>
     <a href = ${anime.url} >Full information here:</a>
+    <h3>Storyline:</h3>
+    <p>${anime.synopsis}</p>
     <h3>Score:</h3>
     <p>${anime.score}</p>
     <h3>Number of Episodes:</h3>
     <p>${anime.episodes}</p>
     <h3>Rated:</h3>
     <p>${anime.rated}</p>
-    <h3>Storyline:</h3>
-    <p>${anime.synopsis}</p>
+    
     <button class='btn-success'>I want to watch this!: </button> 
     `
     const button = document.querySelector('.btn-success')
