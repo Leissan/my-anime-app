@@ -66,7 +66,7 @@ function getEachInfo() {
     <p>${anime.rated}</p>
     <h3>Storyline:</h3>
     <p>${anime.synopsis}</p>
+    <button class='btn-success'>I want to watch this!: </button> 
     `
-    
 }
 
