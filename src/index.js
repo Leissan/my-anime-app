@@ -79,5 +79,8 @@ function displayMessage () {
     modalMessage.innerText = "Let's put this on my to-watch list!"
     modalMessage.style.backgroundColor = "red"
     modalMessage.style.fontSize = "large"
-    
+    setTimeout(()=> {
+        modal.classList.add('hidden')
+        modalParagraph.innerText=""
+       }, 3000)
 }
