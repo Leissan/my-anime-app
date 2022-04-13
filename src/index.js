@@ -71,3 +71,8 @@ function getEachInfo() {
     const button = document.querySelector('.btn-success')
     button.addEventListener('click', displayMessage)
 }
+
+function displayMessage {
+    let modal =document.getElementById('modal')
+    let modalText=document.getElementById('modal-message')
+}
