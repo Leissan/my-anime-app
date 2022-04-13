@@ -68,5 +68,6 @@ function getEachInfo() {
     <p>${anime.synopsis}</p>
     <button class='btn-success'>I want to watch this!: </button> 
     `
+    const button = document.querySelector('.btn-success')
+    button.addEventListener('click', displayMessage)
 }
-
