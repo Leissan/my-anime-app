@@ -77,4 +77,7 @@ function displayMessage () {
     let modalMessage=document.getElementById('modal-message')
     modal.classList.remove('hidden')
     modalMessage.innerText = "Let's put this on my to-watch list!"
+    modalMessage.style.backgroundColor = "red"
+    modalMessage.style.fontSize = "large"
+    
 }
