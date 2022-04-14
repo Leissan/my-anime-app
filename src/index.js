@@ -80,6 +80,7 @@ function displayMessage () {
     modalMessage.innerText = "Let's put this on my to-watch list!"
     modalMessage.style.backgroundColor = "red"
     modalMessage.style.fontSize = "large"
+    modalMessage.style.boxShadow = "10px 20px 30px blue";
     setTimeout(()=> {
         modal.classList.add('hidden')
         modalMessage.innerText=""
