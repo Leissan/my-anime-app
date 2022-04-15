@@ -1,16 +1,15 @@
-Name:
-My Anime List App
+# My Anime List App
+### Introduction
 
-Description:
+This is a single page application built with HTML, CSS and Javascript, and communicating with public API.
 
-Allows the user to:
--load a list of all available animes by loading a page
--click on a specific anime title, which will load the anime information (link to the anime, cover image, number of episodes, score, and rating)
--click the like button on a specific anime which then creates a pop-up that says "I want to watch this later!" (dissapears after 3 seconds)
--click on the "all animes" button to take the user back to the list of animes
+>You will be using the free open API.
+>No API key or authentication is required for the endpoints we will be using.
 
-Instructions:
-You will be using the free open API; no API key or authentication is required for the endpoints we will be using.
-
-URL of the repo:
-https://github.com/Leissan/my-anime-app
+### Description
+- This should be an exciting app for those into Anime!
+- When you open up an app, you will see a list of al available animes 
+- This app will be interactive, because you will be able to click into each name of the anime which will load its image, storyline, score, number of episodes, rating, and a direct link to more information
+- Once you learn more about each anime, you will be able to click the button "I want to watch this!" which will create a reminder pop-up proclaiming "lets put this on a to-watch list!"
+- The pop-up message will disappear after 3 seconds
+- You will be able to go back to the list of all animes by clicking the button "All Animes" on top of the page
