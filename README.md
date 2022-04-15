@@ -18,3 +18,7 @@ This should be an exciting app for those into Anime! It is a single page applica
 - Once you learn more about each anime, you will be able to click the button "I want to watch this!" which will create a reminder pop-up proclaiming "lets put this on a to-watch list!"
 - The pop-up message will disappear after 3 seconds
 - You will be able to go back to the list of all animes by clicking the button "All Animes" on top of the page
+
+#### This is the a quick demo:
+
+<img width = "100%" style = "width:100%" src = "C:\Users\khan7\Anime.gif">
