@@ -19,6 +19,3 @@ This should be an exciting app for those into Anime! It is a single page applica
 - The pop-up message will disappear after 3 seconds
 - You will be able to go back to the list of all animes by clicking the button "All Animes" on top of the page
 
-#### This is the a quick demo:
-
-<img width = "100%" style = "width:100%" src = "C:\Users\khan7\Anime.gif">
