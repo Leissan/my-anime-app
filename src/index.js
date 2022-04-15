@@ -26,7 +26,7 @@ function getAnimes() {
     .then (res => res.json())
     .then (data => {
         animes = data.results
-        console.log(data.results)
+        //console.log(data.results)
         loadAnimes()
     })
 }
@@ -86,3 +86,11 @@ function displayMessage () {
         modalMessage.innerText=""
        }, 3000)
 }
+
+
+
+//const snack = "ice-cream"
+//here we declared our variable (snack) and assigned a value to it (ice-cream)
+
+//snack = "candy"
+
