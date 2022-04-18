@@ -1,19 +1,19 @@
 /*
 Write out pseudo code in steps:
 
-Create a DOMContentLoaded event to get all anime 
+Create a DOMContentLoaded event 
 
-Create a fetch request to json provided 
+Create a fetch request to json provided to get all anime objects
 add each anime object from json to the DOM as li with links inside
-make each link live (clickable) by adding event listener
+make each link live (clickable) by adding event listener; this will load the infor page for each show
 
 add event listener to a like button which creates a pop-up with a reminder to watch it
 
-add event listener to all anime button which loads all anime 
+add event listener to all anime button which loads all anime while erasing info about a single show
 
 
 */
-//declare a global variable so i dont have to fetch it every time
+//declare a global variable so i dont have to fetch it every time and store it
 let anime
 
 window.addEventListener('DOMContentLoaded', ()=> {
@@ -22,25 +22,31 @@ window.addEventListener('DOMContentLoaded', ()=> {
 })
 
 function getAnimes() {
+    
     fetch ('https://api.jikan.moe/v3/search/anime?q=naruto')
     .then (res => res.json())
     .then (data => {
         animes = data.results
-        //console.log(data.results)
+        console.log(data)
+        console.log(data.results)
         loadAnimes()
     })
 }
 
 function loadAnimes() {
 
+    const info = document.getElementById('anime-info')
+    info.innerHTML = ''
     const ul = document.getElementById('anime-list')
+    ul.innerHTML=''
     animes.forEach(anime => {
         const li = document.createElement('li')
         ul.appendChild(li)
         const a = document.createElement('a')
         a.innerText = anime.title
         a.id = anime.mal_id
-        a.href = '#'
+        a.addEventListener('click', event => event.preventDefault())
+        
         li.appendChild(a)
 
 
@@ -89,8 +95,5 @@ function displayMessage () {
 
 
 
-//const snack = "ice-cream"
-//here we declared our variable (snack) and assigned a value to it (ice-cream)
 
-//snack = "candy"
 

@@ -13,9 +13,20 @@ This should be an exciting app for those into Anime! It is a single page applica
 >No API key or authentication is required for the endpoints we will be using.
 
 ### Description
-- When you open up an app, you will see a list of al available animes 
+- When you open up an app, you will see a list of all available animes 
 - This app will be interactive, because you will be able to click into each name of the anime which will load its image, storyline, score, number of episodes, rating, and a direct link to more information
 - Once you learn more about each anime, you will be able to click the button "I want to watch this!" which will create a reminder pop-up proclaiming "lets put this on a to-watch list!"
 - The pop-up message will disappear after 3 seconds
 - You will be able to go back to the list of all animes by clicking the button "All Animes" on top of the page
 
+## Usage
+
+```bash 
+explorer.exe index.html
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://github.com/Leissan/my-anime-app/blob/main/LICENSE.md)
